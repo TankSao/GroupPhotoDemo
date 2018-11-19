@@ -278,7 +278,7 @@ public class MainActivity extends AppCompatActivity {
             String filename = format.format(date) + ".jpg";
             File fileFolder = new File(Environment.getExternalStorageDirectory()
                     + savePath);
-            if (!fileFolder.exists()) { // 如果目录不存在，则创建一个名为"rujiaowang"的目录
+            if (!fileFolder.exists()) { // 如果目录不存在，则创建
                 fileFolder.mkdir();
             }
             File jpgFile = new File(fileFolder, filename);
